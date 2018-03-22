@@ -1,0 +1,15 @@
+package assignments;
+
+public class palindrome {
+	public static void main(String[] args) {
+	String pali = "maaaam";
+	String reverse = " ";
+	
+	int length = pali.length();
+	for(int i = length-1; i>=0; i--) 
+	reverse= reverse+ pali.charAt(i);
+	
+		System.out.println(reverse);
+	
+}
+}
