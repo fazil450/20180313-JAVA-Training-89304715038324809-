@@ -1,0 +1,24 @@
+package assignments;
+
+public class recursion {
+	public static void main(String[] args) {
+		
+		
+	recursion r=new recursion();
+		
+		
+		System.out.println("The factorial for n is"+ r.product(10));
+		
+		
+		
+	}
+	 int product(int n)
+	{
+		if(n==1)
+			return n;
+		else
+			return (n*(n-1));
+		
+	}
+
+}
